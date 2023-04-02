@@ -1,4 +1,5 @@
-* {
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-device-pixel-ratio: 2) {
+  * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -400,3 +401,7 @@ h2 {
   height: 150px;
   width: 1500px;
 }
+
+
+}
+
