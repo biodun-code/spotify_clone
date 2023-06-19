@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root{
+  height: 100%;
+  background-color: #000;
+  color-scheme: dark;
+}
+
+.account {
+ 
+  
+  color: white;
+    display: flex;
+
+    overflow: hidden;
+    padding-bottom: 24px;
+    position: relative;
+   
+    background-color: rgb(83, 83, 83);
+}
+
+
+.circle-div {
+  box-shadow: 0 4px 60px rgba(0,0,0,.5)
+}
+
+.f-abs{
+  background: linear-gradient(transparent 0,rgba(0,0,0,.7) 100%);
+}
